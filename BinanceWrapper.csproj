@@ -6,6 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="BinanceTesterA\**" />
+    <EmbeddedResource Remove="BinanceTesterA\**" />
+    <None Remove="BinanceTesterA\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BinanceDotNet" Version="3.0.0" />
   </ItemGroup>
 
